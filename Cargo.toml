@@ -14,7 +14,7 @@ exclude = ["/.github", "./examples/web/"]
 
 [dependencies]
 stackbox = "0.2"
-egui = { git = "https://github.com/emilk/egui", rev = "8d3539b6da372e966b6d57a474e3a9683c7818f8", default-features = false }
+egui = { git = "https://github.com/emilk/egui", rev = "fa78d25564a5dbcb546ff6db0a9e14cb603ba03b", default-features = false }
 log = { version = "0.4", default-features = false }
 taffy = { version = "0.7.7", default-features = false, features = [
   "taffy_tree",
@@ -36,7 +36,7 @@ taffy_default = [
 tracing = ["dep:tracing"]
 
 [dev-dependencies]
-eframe = { git = "https://github.com/emilk/egui", rev = "8d3539b6da372e966b6d57a474e3a9683c7818f8", default-features = false, features = [
+eframe = { git = "https://github.com/emilk/egui", rev = "fa78d25564a5dbcb546ff6db0a9e14cb603ba03b", default-features = false, features = [
   "accesskit",
   "default_fonts",
   "wgpu",
